@@ -15,18 +15,25 @@ body{
 .row {
 	margin-bottom: 20px;
 }
+
 .navbar {
-	height: 75px;
+	/*height: 75px;*/
 	margin-bottom: 0;
 }
 
-.navbar .active a{
+.navbar-default .navbar-nav > .active > a{
 	color: orange;
+  background-color: inherit;
 }
 
-.navbar-nav, .navbar-pull-right {
-	height: 75px;
+.navbar-default .navbar-nav > li:hover{
+  background-color: #e7e7e7 !important;
 }
+
+.navbar-default .navbar-nav > .active > a:hover{
+  color: orange;
+}
+
 .navbar a {
 	height: 75px;
 	line-height: 75px;
@@ -34,6 +41,7 @@ body{
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
 .dark-gray {
 	color: #7D7E7E;
 }
@@ -57,16 +65,16 @@ body{
 	background-color: #E5E5E5;
 	color: #3d4247;
 	text-align: center;
-	min-height: 210px;
+	min-height: 180px;
 }
 
 .top-section-text h2 {
-	margin-top: 0;
+	margin-top: 10;
 	font-weight: bold;
 }
 
 .top-section-text p {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .content {
@@ -88,6 +96,37 @@ body{
 
 .content p {
 	font-size: 1.3em;
+}
+
+.contact-info h4{
+  margin-top: 0;
+}
+
+.contact-info p{
+  font-size: 1.1em;
+}
+
+.locations-box{
+	margin-top: 10px;
+}
+.locations-box h4 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.locations-box .col-md-6 {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.locations-box ul {
+	margin-left: 0px;
+	padding-left: 5px;
+}
+
+.locations-box li {
+	margin-bottom: 10px;
+	font-size: 1.2em;
 }
 
 .fcher h5 {
@@ -137,7 +176,7 @@ footer p {
 
 #slides {
   display: none;
-   height: 500px;
+  max-height: 500px !important;
 }
 
 #slides .slidesjs-navigation {

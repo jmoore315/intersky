@@ -87,6 +87,10 @@ box-shadow: -1px 0px 21px 1px rgba(255,255,255,0.68);
   font-size: 17px;
 }
 
+.ts-txt > p {
+  color: red;
+}
+
 .bottom-section-header {
   font-weight: bold;
 }
@@ -236,6 +240,20 @@ footer p {
 
 #slides .slidesjs-navigation {
   margin-top:5px;
+}
+
+.contact-info h4{
+  margin-top: 0;
+}
+
+.contact-info p{
+  font-size: 0.5em;
+}
+
+.locations-box h4 {
+  margin-top: 20px;
+  font-weight: bold;
+
 }
 
 a.slidesjs-next,
